@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.4/socket.io.js"></script>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Scintillate Alliance Pvt Ltd.</h1>
+        </div>
+    </div>
+    <div class="left-section">
+        <h1 style="text-align: center;">What is your favourite Programming Language?</h1>
+        <canvas id="voteChart" style="height:50vh; width: 100vw"></canvas>
+
+        <button onclick="vote(0)">Javascript</button>
+        <button onclick="vote(1)">C#</button>
+        <button onclick="vote(2)">Java</button>
+        <button onclick="vote(3)">Python</button>
+        <button onclick="vote(4)">Php</button>
+    </div>
+    <div class="right-section">
+        <h2>Chat history</h2>
+        <form onsubmit="onSubmitHandler(event)"
+          <div class="message-button-container">
+              <input type="text" id="message" name="message">
+              <button type="submit">Send</button>
+          </div>
+      </form>
+    </div>
+    <script src="mainpage.js"></script>
+</body>
+</html>

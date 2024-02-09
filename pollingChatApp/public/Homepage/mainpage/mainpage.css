@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+h2{
+    text-align:center;
+}
+
+.left-section {
+    float: left;
+    width: 60%;
+    background-color: #f2f2f2;
+    height: 650px;
+    padding: 0px;
+}
+
+.right-section {
+    float: right;
+    width: 40%;
+    background-color: #ddd;
+    height: 650px;
+    padding: 0px;
+}
+
+.left-section h1 {
+    margin-top: 0;
+}
+
+.left-section button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.left-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-section input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.message-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-container label {
+    flex: 0 0 30%;
+}
+
+.message-container input[type="text"] {
+    flex: 0 0 65%;
+}
+
+.message-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.right-section label {
+    margin-bottom: 5px;
+}
+
+.right-section input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 8px;
+    margin-top: 525px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.right-section button[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top:525px;
+    margin-left:3px;
+}
+
+.right-section button[type="submit"]:hover {
+    background-color: #45a049;
+}

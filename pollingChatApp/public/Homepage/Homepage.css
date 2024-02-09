@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.left-section {
+    float: left;
+    width: 60%;
+    background-color: #f2f2f2;
+    height: 600px;
+    padding: 10px;
+}
+
+.right-section {
+    float: right;
+    width: 34.7%;
+    background-color: #ddd;
+    height: 600px;
+    padding: 10px;
+}
+.header button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.left-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.left-section input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.left-section .chart-options {
+    margin-top: 30px;
+}
+
+.left-section .chart-options label {
+    margin-right: 10px;
+}
+
+.chart-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.chart-images-container svg {
+    width: 100%;
+    height: auto;
+}
+.chart-options svg {
+    margin-right: 10px;
+    width: 30px;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
